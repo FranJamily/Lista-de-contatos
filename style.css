@@ -1,0 +1,66 @@
+/* Estiliza o container principal da página */
+.container {
+    width: 80%; /* Define a largura do container como 80% da largura da tela */
+    margin: auto; /* Centraliza o container horizontalmente na tela */
+    text-align: center; /* Alinha o texto no centro dentro do container */
+}
+
+/* Adiciona margem inferior ao formulário */
+form {
+    margin-bottom: 20px; /* Adiciona um espaço de 20 pixels abaixo do formulário */
+}
+
+/* Estiliza os campos de entrada de texto, telefone e e-mail */
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px; /* Adiciona um preenchimento de 10 pixels dentro dos campos */
+    margin: 5px; /* Adiciona uma margem de 5 pixels ao redor dos campos */
+    width: 80%; /* Define a largura dos campos como 80% da largura do container pai */
+    max-width: 400px; /* Define a largura máxima dos campos como 400 pixels */
+}
+
+/* Estiliza os botões */
+button {
+    padding: 10px 20px; /* Adiciona um preenchimento de 10 pixels verticalmente e 20 pixels horizontalmente */
+    background-color: #4CAF50; /* Define a cor de fundo do botão como verde */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando passa sobre o botão */
+}
+
+/* Estiliza o botão quando o usuário passa o mouse sobre ele */
+button:hover {
+    background-color: #45a049; /* Altera a cor de fundo para um verde mais escuro quando o botão é hovered */
+}
+
+/* Remove as marcas de estilo da lista e define padding como 0 */
+#listaContatos {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estiliza os itens da lista de contatos */
+#listaContatos li {
+    background: #f9f9f9; /* Define o fundo dos itens da lista como um tom claro de cinza */
+    padding: 10px; /* Adiciona um preenchimento de 10 pixels dentro dos itens da lista */
+    margin: 5px; /* Adiciona uma margem de 5 pixels ao redor dos itens da lista */
+    border: 1px solid #ddd; /* Adiciona uma borda fina de 1 pixel ao redor dos itens da lista */
+}
+
+/* Estiliza os botões dentro dos itens da lista */
+#listaContatos li button {
+    margin-left: 10px; /* Adiciona uma margem esquerda de 10 pixels para separar os botões do texto */
+    padding: 5px 10px; /* Adiciona um preenchimento de 5 pixels verticalmente e 10 pixels horizontalmente */
+    background-color: #f44336; /* Define a cor de fundo dos botões como vermelho */
+    color: white; /* Define a cor do texto dos botões como branco */
+    border: none; /* Remove a borda padrão dos botões */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando passa sobre o botão */
+}
+
+/* Estiliza os botões dentro dos itens da lista quando o usuário passa o mouse sobre eles */
+#listaContatos li button:hover {
+    background-color: #da190b; /* Altera a cor de fundo para um vermelho mais escuro quando o botão é hovered */
+}
+
+
